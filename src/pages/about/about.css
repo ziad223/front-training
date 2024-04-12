@@ -1,0 +1,52 @@
+.about h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.about h2 span{
+    color: var(--main-color);
+}
+.about-right > * {
+    margin-bottom: 20px;
+}
+.about-right h3{
+    color: gray;
+    line-height: 1.5;
+}
+.about-right h3 span{
+   color: var(--main-color);
+   font-size: 22px;
+}
+.about-right button{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.about-right button:hover{
+    background-color: rgb(231, 57, 57);
+}
+
+@media screen and (max-width : 480px){
+    .about-content{
+      flex-direction: column;
+    }
+    .about-right h1{
+        font-size: 24px;
+    }
+    .about-content img{
+        max-width: 100%;
+    }
+  
+    
+}

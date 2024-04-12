@@ -1,0 +1,135 @@
+.fake{
+    background-color: #eee;
+    padding: 20px;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    margin-bottom: 10px;
+    color: var(--main-color);
+    margin-top: 50px;
+}
+.title p {
+    width: 60%;
+    line-height: 1.5;
+    font-size: 18px;
+    margin: auto;
+    color: gray;
+}
+.products{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.product{
+    width: 16%;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.product > * {
+    margin-bottom: 20px;
+}
+.product img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 20px auto;
+}
+.product h2{
+    font-size: 16px;
+}
+.product div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.product div h4 {
+    color: var(--main-color);
+}
+.product-single{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.product-single img{
+    width: 400px;
+    height: 400px;
+}
+.productSingle-details > * {
+    margin-bottom: 20px;
+}
+.productSingle-details h2{
+  color: var(--main-color);
+  font-size: 25px;
+}
+
+.productSingle-details div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.star-icon{
+    color: gold;
+}
+.productSingle-details p {
+    line-height: 1.5;
+    color: gray;
+    font-size: 18px;
+}
+.productSingle-details button{
+    display: block;
+    margin-top: 40px;
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    padding: 15px 10px;
+    width: 200px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.productSingle-details button:hover{
+    background-color: red;
+}
+
+@media screen and (max-width : 480px) {
+    .title p {
+        width: 100%;
+    }
+    .products{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .product{
+        width: 100%;
+    }
+    .product div{
+       margin-top: 30px;
+    }
+    .product-single{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-direction: column;
+    }
+    .product-single img{
+       max-width: 200px;
+       height: 200px;
+       margin: auto;
+    }
+    .productSingle-details {
+        text-align: center;
+    }
+    .productSingle-details div{
+       justify-content: center;
+    }
+    .productSingle-details button{
+        margin: auto;
+    }
+}

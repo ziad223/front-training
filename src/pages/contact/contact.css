@@ -1,0 +1,53 @@
+.contact{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.contact-left{
+    width: 50%;
+}
+.contact-left iframe{
+    width: 100%;
+    height: 400px;
+}
+.contact-right{
+    width: 50%;
+}
+.contact-right input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    border: none;
+    border: 1px solid #ccc;
+}
+.contact-right textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    border: none;
+    border: 1px solid #ccc;
+    height: 240px;
+}
+
+@media screen and (max-width : 480px){
+    .contact{
+      flex-direction: column;
+    }
+    .contact-left{
+        width: 100%;
+    }
+    .contact-right{
+        width: 100%;
+    }
+    .contact-right input{
+        width: 90%;
+    }
+    .contact-right textarea{
+        width: 90%;
+        height: 150px;
+    }
+}

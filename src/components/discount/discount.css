@@ -1,0 +1,43 @@
+.discount-top{
+    display: flex;
+    align-items: center;
+    gap : 10px;
+}
+.discount-down{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px !important;
+    margin:30px auto;
+}
+.discount{
+    width: 200px !important;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.discount img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+.discount h2{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.discount p{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width : 480px) {
+    .discount{
+       width: 100% !important;
+    }
+    
+}

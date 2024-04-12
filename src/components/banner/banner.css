@@ -1,0 +1,27 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.banner-left{
+    background-image: url(../../images/banner-1.png);
+    height: 53vh;
+    width: 33%;
+}
+.banner-right{
+    background-image: url(../../images/banner-2.png);
+    height: 53vh;
+    width: 65%;   
+}
+@media screen and (max-width : 480px){
+    .banner{
+      flex-direction: column;
+    }
+    .banner-left{
+        width: 100%;
+    }
+    .banner-right{
+        width: 100%;   
+    }
+}

@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+:root{
+  --main-color : #ff014f;
+}
+.container{
+  width: 90%;
+  margin: 100px auto;
+}
+.shopping{
+  color: #000;
+}
+
+.app-dark{
+  background-color: #000;
+  color: #fff;
+}
+.app-dark .navbar{
+  background-color: #333;
+}
+.app-dark .navbar a{
+  color: #fff;
+}
+.app-dark .nav-menu {
+  background-color: #333;
+}
+.app-dark .news{
+  background-color: #111;
+}
+.app-dark .news-data{
+  background-color: #333;
+}
+.app-dark .discount{
+  background-color: #333;
+}
+.app-dark .homeProducts-left{
+  background-color: #333;
+}
+.app-dark .homeProducts-left  div{
+  background-color: #111;
+}
+.app-dark .homeProducts-left  div:hover{
+  background-color: #000;
+}
+.app-dark .home-product{
+  background-color: #333;
+}
+.app-dark .service{
+  background-color: #444;
+}
+.app-dark .service .service-icon{
+  background-color: #222;
+}
+.app-dark .fake{
+  background-color: #000;
+}
+.app-dark .product{
+  background-color: #111;
+}
+.app-dark .plus-icon{
+  border: 1px solid #444;
+}
+.app-dark .dummyy{
+  background-color: #000;
+}
+.app-dark .counter button{
+  background-color: var(--main-color);
+}
+.app-dark .contact input{
+  background-color: #222;
+  border: 1px solid #444;
+  color: #fff;
+}
+.app-dark .contact textarea{
+  background-color: #222;
+  border: 1px solid #444;
+  color: #fff;
+}
